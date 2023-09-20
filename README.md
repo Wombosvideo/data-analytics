@@ -4,6 +4,36 @@ Repository of the Data Analytics module at ZHAW.
 
 > ℹ️ **NOTICE:** Please note that the weekly material will always be available shortly before the course starts.
 
+## Getting Started
+
+### GitHub Codespaces
+
+Click the green button above and create a code space. Everything should be set up as needed.
+
+### Locally
+
+Assuming you have
+
+- [Visual Studio Code](https://code.visualstudio.com/Download)
+- [git](https://github.com/git-guides/install-git)
+- [Python3](https://www.python.org/downloads/)
+- [Created a fork](https://github.com/mario-gellrich-zhaw/data_analytics/fork) of this repository and [set up an SSH key](https://docs.github.com/en/github-ae@latest/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+
+you can clone this repository to your computer using:
+
+```
+git clone <repository-url>
+```
+
+where `<repository-url>` is the url of your fork (click green button above, Local, SSH).
+
+After that, run:
+
+```bash
+cd data_analytics                # go to the working directory
+pip install -r requirements.txt  # installs all python requirements
+```
+
 ## Folder Structure
 
 Once the course is complete, the folder structure will look like this:
@@ -47,7 +77,10 @@ Data Analytics
 
 ## Useful git commands 
 
-Before running these commands, make sure you're in your working directory:
+Before running these commands, make sure you're in your working directory.
+This is usually the case when you work with the integrated terminal of Visual Studio Code (and Devcontainers).
+
+If not, use this command:
 
 ```bash
 cd U:\Lektionen\DA_HS2023\data_analytics  # your working directory
